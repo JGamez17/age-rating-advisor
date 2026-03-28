@@ -57,6 +57,7 @@ return [ref, inView];
 }
 
 export default function Home() {
+
 const [heroVisible, setHeroVisible] = useState(false);
 const [statsRef, statsInView] = useInView(0.3);
 
