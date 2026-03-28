@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import React, { useEffect, useRef, useState } from "react";
 import Head from "next/head";
 
@@ -369,7 +370,7 @@ return (
     <div className="section-header">
       <div className="section-eyebrow">What PlayGuard Offers</div>
       <h2 className="section-title">Three Key Features for Complete Protection</h2>
-      <p className="section-sub">Everything parents need to ensure their children's digital safety and wellbeing — in one place.</p>
+      <p className="section-sub">Everything parents need to ensure their children&apos;s digital safety and wellbeing — in one place.</p>
     </div>
 
     <div className="feature-grid">
@@ -411,7 +412,7 @@ return (
         <div className="feature-detail">
           <div className="detail-row" style={{ flexDirection: "column", alignItems: "flex-start", gap: 6 }}>
             <div style={{ display: "flex", justifyContent: "space-between", width: "100%" }}>
-              <span className="detail-label" style={{ fontSize: ".75rem" }}>Today's Screen Time</span>
+              <span className="detail-label" style={{ fontSize: ".75rem" }}>Today&apos;s Screen Time</span>
               <span style={{ fontSize: ".75rem", color: "var(--teal)", fontWeight: 600 }}>2h 45m</span>
             </div>
             <div className="progress-bar-wrap" style={{ width: "100%" }}>
@@ -441,7 +442,7 @@ return (
     <div className="steps">
       {[
         { n: "1", title: "Download & Setup", body: "Install PlayGuard on parent and child devices. Quick 5-minute setup with Firebase-powered authentication." },
-        { n: "2", title: "Configure Settings", body: "Set age-appropriate filters and time limits. Customize based on your family's unique needs and values." },
+        { n: "2", title: "Configure Settings", body: "Set age-appropriate filters and time limits. Customize based on your family&apos;s unique needs and values." },
         { n: "3", title: "Monitor & Adjust", body: "Use the unified dashboard to track usage in real time and make adjustments as your kids grow." },
       ].map((s) => (
         <div key={s.n} className="step">
