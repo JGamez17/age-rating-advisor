@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import React, { useEffect, useRef, useState } from "react";
 import Head from "next/head";
 
@@ -56,6 +57,7 @@ return [ref, inView];
 }
 
 export default function Home() {
+
 const [heroVisible, setHeroVisible] = useState(false);
 const [statsRef, statsInView] = useInView(0.3);
 
