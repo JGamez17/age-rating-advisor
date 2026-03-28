@@ -371,7 +371,7 @@ return (
     <div className="section-header">
       <div className="section-eyebrow">What PlayGuard Offers</div>
       <h2 className="section-title">Three Key Features for Complete Protection</h2>
-      <p className="section-sub">Everything parents need to ensure their children's digital safety and wellbeing — in one place.</p>
+      <p className="section-sub">Everything parents need to ensure their children&apos;s digital safety and wellbeing — in one place.</p>
     </div>
 
     <div className="feature-grid">
@@ -413,7 +413,7 @@ return (
         <div className="feature-detail">
           <div className="detail-row" style={{ flexDirection: "column", alignItems: "flex-start", gap: 6 }}>
             <div style={{ display: "flex", justifyContent: "space-between", width: "100%" }}>
-              <span className="detail-label" style={{ fontSize: ".75rem" }}>Today's Screen Time</span>
+              <span className="detail-label" style={{ fontSize: ".75rem" }}>Today&apos;s Screen Time</span>
               <span style={{ fontSize: ".75rem", color: "var(--teal)", fontWeight: 600 }}>2h 45m</span>
             </div>
             <div className="progress-bar-wrap" style={{ width: "100%" }}>
